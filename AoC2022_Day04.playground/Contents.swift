@@ -11,7 +11,6 @@ if let filepath = Bundle.main.path(forResource: "input04", ofType: "txt") {
     }
 }
 
-//print(lines)
 func part1() -> String {
     var result = 0
     for line in lines {
@@ -75,7 +74,7 @@ func part2() -> String {
         }
             
     }
-    return("Result of part 1 is \(result).")
+    return("Result of part 2 is \(result).")
 }
 
 part1()
